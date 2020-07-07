@@ -1,3 +1,4 @@
+variables.env
 *.iml
 misc.xml
 modules.xml
