@@ -8,7 +8,7 @@ import (
 
 type bot struct {}
 
-func newJsonSerializer() sportsdeetsservice.BotSerializer{
+func NewJsonSerializer() sportsdeetsservice.BotSerializer{
 	return &bot{}
 }
 

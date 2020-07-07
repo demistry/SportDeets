@@ -2,5 +2,6 @@ variables.env
 *.iml
 misc.xml
 modules.xml
+.idea
 vcs.xml
 *.env
