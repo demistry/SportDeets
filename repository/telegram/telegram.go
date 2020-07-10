@@ -27,7 +27,6 @@ func (t TelegramRepository) SendBotResponse(message sportsdeetsservice.BotMessag
 //Clean up raw bot text to remove the commands
 //TODO:- Use regex to make this cleaner
 func (t TelegramRepository) ParseBotRawInput(text string) string {
-
 	for _,command := range botCommands{
 		lengthOfCmd := len(command)
 		if len(text) >= lengthOfCmd{
